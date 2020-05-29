@@ -1,0 +1,9 @@
+<h1 class="mt-4">quirky quotes from the wizenard series</h1>
+ <% quotes.forEach(function(quote) { %>
+  <blockquote>
+    <p> <%= quote.quote %> </p>
+    <small> <cite title="Source Title">--<%= quote.author %></cite></small>
+  </blockquote>
+ 
+  <% }); %>
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
